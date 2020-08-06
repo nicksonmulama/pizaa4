@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 150%;
+    background-color: white;
+    
+}
+.icon img{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    float: left;
+}
+.icon p{
+    width: 200px;
+    float: left;
+    margin-top: 45px;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+nav ul{
+    float: right;
+    width: 40%;
+    margin-right: 30px;
+    /* height: ; */
+
+}
+ nav ul li{
+    display: inline;
+    line-height: 150px; 
+    /* width: 300px; */
+    margin-left: 10px;
+}
+ nav ul li a{
+    width: 300px;
+    text-decoration: none;
+    width:300px;
+    color:white;
+    font-size: 20px;
+
+}
+nav ul li a:hover{
+    background-color: darkred;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+header{
+    background-color: red;
+    height: 160px;
+
+}
+footer{
+    height: 290px;
+    background-color: red;
+    margin-bottom: 0;
+    
+    /* bottom: 0; */
+
+}
+
+section{
+    min-height: 1150px;
+}
+
+.one{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    min-height: 20%;
+}
+.one p{
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: fantasy;
+    font-style: italic;
+    color: greenyellow;
+    margin-top: 3%;
+    margin-bottom: 5%;
+
+}
+.one button{
+    margin-left: 20px;
+    width: 30%;
+    color: grey;
+    height: 50px;border-radius: 5px;
+}
+.two{
+    width: 50%;
+    float: left;
+}
+.two1{
+width: 50%;
+margin-top: 4%;
+line-height: 30px;
+float: left;
+}
+.two1 a{
+    text-decoration: none;
+    color: white;
+}
+.two2{
+    width: 50%;
+    margin-top: 4%;
+    line-height:30px ;
+    float: left;
+}
+.two2 p{
+    color: white;
+}
+.three{
+    width: 100%;
+    /* margin-left: 20%; */
+    margin-top: 40px;
+    float: left;
+}
+.three1{
+    width: 80%;
+    border-top:2px solid black;
+    float: left;
+    margin-left: 10%;
+}
+.three1 i{
+    float: left;
+    width: 50px;
+    margin-left: 30px;
+    font-size: 25px;
+    margin-top:2.4%;
+}
+.three1 ul{
+    float: right;
+    margin-top: 2.4%;
+}
+.three1 ul li{
+    margin-top: %;
+    width: 150px;
+    list-style: none;
+    display: inline;
+
+}
+.three1 ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+/* section */
+.s1{
+    background: url('images/p10.jpg');
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.s2{
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+    
+}
+.s22{
+    width: 33%;
+    float: left;
+    height: 300px;
+    margin-left:0;
+    
+}
+.s22 img{
+    width:94%;
+    margin-left: 3%;
+    margin-top: 3%;
+    float: left;
+    height: 60%;
+    border: 1px solid red;
+}
+.s2 h3{
+    line-height: 30px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.s22 p{
+    margin-left: 3%;
+    margin-top: 20px;
+    font-size: 20px;
+    float: left;
+}
+.s22 button{
+    margin-right: 3%;
+    background-color: red;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 20px;
+    font-size: 14px;
+    float: right;
+}
+.s22 a{
+    text-decoration: none;
+    color: white;
+}
+.section2{
+    min-width: 500px;
+    min-height: 2230px;
+}
+.ss2{
+    min-height: 50%;
+}
+.cart{
+    width: 100%;
+    height: 100px;
+    /* margin-top: 200px; */
+    float: left;
+    color: green;
+    /* background-color: red; */
+    
+}
+.cart1 {
+    width: 70%;
+    background-color:lightblue;
+    min-height: 100px;
+    margin-left: 15%;
+    margin-top:20px;
+    margin-bottom: 20px;
+    color: black;
+    display: inline-flex;
+}
+.clas{
+    width: 14%;
+}
+.fcart{
+    width: 80%;
+    background-color:lightblue;border-radius: 10px;
+    min-height: 100px;
+    margin-left: 10%;
+    margin-top:20px;
+    color: black;
+    float: left;
+}
+.fcart label{
+    /* margin-left: 20px; */
+   
+}
+
+.cart1 i{
+    font-size: 70px;
+}
+
+#countcart{
+    margin-top: -45px;
+
+}
+#c11{
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    float: left;
+}
+.cart1 label{
+    /* width: 80px;
+    height: 40px;
+    /* background-color: green; */
+    float: left; 
+    margin-left: 20px;
+
+}
+#c22{
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    float: left;
+    margin-left: 10px;
+}
+#c33{
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    float: left;
+    margin-left: 10px;
+}
+#c44, #c66{
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    float: left;
+    margin-left: 10px;
+}
+#c55{
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    float: left;
+    margin-left: 10px;
+}
+#c9, #c10, #c3, #c4, #c5, #c6, #c7, #c8, #c11{
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    float: left;
+    margin-left: 20px;
+    /* float: left; */
+}
+
+
+
+.toppings{
+    width:80%;
+    height: 300px;
+    float: left;
+    display: inline-flex;
+    margin-left: 10%;
+}
+.crusts{
+    width:80%;
+    height: 300px;
+    float: left;
+    display: inline-flex;
+    margin-left: 10%;
+}
+.top, .crust{
+    width: 25%;
+}
+
+.top img, .crust img{
+    width: 90%;
+    margin-left: 5%;
+    height: 70%;
+    border: 1px solid red ;
+}
+.pt{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    
+}
+.top label, .crust label{
+    margin-left: 5%;
+}
+.top button, .crust button{
+    float:right;
+    background-color: red;
+    padding: 3px;
+    border-radius: 3px;
+}
+.select{
+    width: 100%;
+    float: left;
+}
+.del{
+    width: 100%;
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    font-style:italic ;
+    margin-top: 50px;
+}
+.classs{
+    width: 10%;
+    margin-left: 1%;
+    /* display: inline-flex; */
+    /* flex-direction: row; */
+    float: left;
+    text-align: center;
+}

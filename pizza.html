@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script> src="js/jquery-3.5.1.js"</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <meta charset="UTF-8">
+    <script  src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA INN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="icon">
+                <img src="images/p1.png" alt="">
+                <p>PIZZA IN</p>
+            </div>
+            <ul>
+                <li><a href="index1.html">HOME</a></li>
+                <li><a href="pizza.html">PIZZA</a></li>
+                <li><a href="#">ORDER</a></li>
+                <li><a href="#">CONTACTS</a></li>
+                <li><a href="#">ABOUT US</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <p>This is it </p> -->
+    <section class="section2">
+        <div class="ss1">
+            <p>Welcome to Pizza palace</p>
+            <p>You can Now order your Pizza with free Delivery services</p>
+
+        </div>
+        <div class="s2">
+            <h3>PIZZA LARGE</h3>
+            <div class="s22">
+                <img src="images/p4.jpg" alt="">
+                <p>Deep-dish Pizza</p>
+                <button id="plarge" onclick="orders()">Order Now</button>
+            </div>
+            <div class="s22">
+                <img src="images/p5.png" alt="">
+                <p>Bagel pizza</p>
+                <!-- <button id="" onclick="orders()" value="pizzalarge"> <a href="#">Order Now</a></button> -->
+
+            </div>
+            <div class="s22">
+                <img src="images/p6.jpg" alt="">
+                <p>Neopolitan pizza</p>
+                <!-- <button id="" onclick="orders()" value="pizzalarge"> <a href="#">Order Now</a></button> -->
+
+            </div>
+        </div>
+
+
+        <div class="s2">
+            <h3>PIZZA MEDIUM</h3>
+            <div class="s22">
+                <img src="images/p4.jpg" alt="">
+                <p>Cheese Pizza</p>
+                <button id="pmed" onclick="orders()">Order Now</button>
+            </div>
+            <div class="s22">
+                <img src="images/p5.png" alt="">
+                <p>Magherita</p>
+                <!-- <button id="pmed"> <a href="#">Order Now</a></button> -->
+
+            </div>
+            <div class="s22">
+                <img src="images/p6.jpg" alt="">
+                <p>Pepperonia</p>
+                <!-- <button id="pmed"> <a href="#">Order Now</a></button> -->
+
+            </div>
+        </div>
+
+
+        <div class="s2">
+            <h3>PIZZA SMALL</h3>
+            <div class="s22">
+                <img src="images/p4.jpg" alt="">
+                <p>Macon BBQ Pizza</p>
+                <button id="psmall" onclick="orders()"> Order Now</button>
+            </div>
+            <div class="s22">
+                <img src="images/p5.png" alt="">
+                <p>Meat Deluxe pizza</p>
+                <!-- <button id="psmall"> <a href="#">Order Now</a></button> -->
+
+            </div>
+            <div class="s22">
+                <img src="images/p6.jpg" alt="">
+                <p>Chicken Hawaiian pizza</p>
+                <!-- <button id="psmall"> <a href="#">Order Now</a></button> -->
+
+            </div>
+        </div>
+        <h4 class="pt">PIZZA TOPPINGS</h4>
+        <div class="toppings">
+          
+            <div class="top">
+                <img src="images/peperoni.jpeg" alt="">
+                <label for="">peperoni</label>
+                <button id="mushrooms" onclick="orders()">Order Now</button>
+            </div>
+            <div class="top">
+                <img src="images/sausage.jpeg" alt="">
+                <label for="">sausage</label>
+                <button id="mushrooms1" onclick="orders()">Order Now</button>
+            </div>
+            <div class="top">
+                <img src="images/onions.jpeg" alt="">
+                <label for="">onions</label>
+                <button id="mushrooms2" onclick="orders()">Order Now</button>
+            </div>
+            <div class="top">
+                <img src="images/mushrooms.jpeg" alt="">
+                <label for="">mushrooms</label>
+                <button id="mushrooms3" onclick="orders()">Order Now</button>
+            </div>
+
+        </div>
+        <h4 class="pt">PIZZA CRUST</h4>
+        <div class="crusts">
+            <div class="crust">
+                <img src="images/cripsy.jpeg" alt="">
+                <label for="">Cripsy</label>
+                <button id="cripsy" onclick="orders()">Cripsy</button>
+            </div>
+            <div class="crust">
+                <img src="images/stuffed.jpeg" alt="">
+                <label for="">Stuffed</label>
+                <button id="stuffed" onclick="orders()">Stuffed</button>
+            </div>
+            <div class="crust">
+                <img src="images/thin crust.jpeg" alt="">
+                <label for="">Thin Crust</label>
+                <button id="thincrust">Thincrust</button>
+            </div>
+            <div class="crust">
+                <img src="images/glutten.jpeg" alt="">
+                <label for="">Glutten</label>
+                <button id="glutten" onclick="orders()">Glutten</button>
+            </div>
+        </div>
+            <h4 class="del">PREVIEW ORDER</h4>
+        <div class="cart">
+            <div class="cart1">
+                <!-- <i class="fa fa-shopping-cart"><div id="countcart"> -->
+                <!-- </div></i> -->
+                <div class="clas">
+                    <label for="">Pizza size</label>
+                    <div id="c11">
+                    
+                    </div>
+                </div>
+                <div class="clas">
+                    <label for="">Pizza topping</label>
+                    <div id="c22">
+                    
+                    </div>
+                </div>
+                <div class="clas">
+                    <label for="">Pizza crust</label>
+                    <div id="c33">
+                    
+                    </div>
+                </div>
+                <div class="clas">
+                    <label for="">Pizza price</label>
+                    <div id="c44">
+                    
+                    </div>
+                </div>
+                <div class="clas">
+                    <label for="">Pizza quantity</label>
+                    <input id="c55" type="number" min="1" >
+
+                   
+                </div>
+                <div id="clas">
+                      <button id="c66" onclick="ppalace()">Submit</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <h4 class="del">FINAL CART</h4>
+        <div class="fcart">
+            <div class="classs">
+                <label for="">Pizza size</label>
+                <div id="c3">
+                    
+                </div>
+
+            </div>
+            <div class="classs">
+                <label for="">Crust</label>
+                <div id="c4">
+                    
+                </div>
+
+            </div>
+            <div class="classs">
+                <label for="">Topping</label>
+                <div id="c5">
+                    
+                </div>
+
+            </div>
+            <div class="classs">
+                <label for="">Price</label>
+                <div id="c6">
+                    
+                </div>
+
+            </div>
+            <div class="classs">
+                <label for="">Quantity</label>
+                <div id="c7">
+                    
+                </div>
+
+            </div>
+            <div class="classs">
+                <label for="">Total</label>
+                <div id="c8">
+                    
+                </div>
+
+            </div>
+          
+
+           
+                <div id="c11" style="background-color: lightblue;width: 200px; margin-top: 20px;">
+                    <input type="checkbox" id="checkbox">Delivery
+                    <input type="checkbox" id="checkbox1">No Delivery
+
+                </div>
+               
+                    <button id="sub">Submit</button>
+
+               
+               
+
+
+        </div>
+     
+    </section> 
+
+
+    <footer>
+        <div class="one">
+           <p>PIZZA PALACE</p> 
+            <button><i class="fa-apple">GET IN ON APPSTORE</i></button>
+            <button><i class="fa-play">DOWNLOAD IT ON PLAYSTORE</i></button>
+        </div>
+        <div class="two">
+            <div class="two1">
+                <h2>ABOUT US</h2>
+                <p><a href="#">Find a restaurant</a></p>
+                <p><a href="#">Sign up to deliver</a></p>
+                <p><a href="#">Read our Blog</a></p>
+
+
+            </div>
+            <div class="two2">
+                <h2>CONTACTS</h2>
+                <p><i class="fa fa-phone">+254 755 666 6633</i></p>
+                <p><i class="fa fa-envelope">nicksonmulama@gmail.com</i></p>
+            </div>
+
+        </div>
+        <div class="three">
+            <div class="three1">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-snapchat"> </i>
+                <i class="fa fa-twitter"></i>
+                <i></i>
+                <ul>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">&copy;Pizza Palace. Rights Reserved.</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    
+</body>
+</html>
